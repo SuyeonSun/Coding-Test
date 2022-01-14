@@ -1,16 +1,79 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
 a {
-  color: inherit;
   text-decoration: none;
 }
 
-* {
-  box-sizing: border-box;
+.titlebox {
+ text-align: center;
+ background-color: black;
+ height: 80px;
+ font-size: 20px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.titlebox2 {
+  text-align: center;
+  background-color: black;
+  height: 80px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px;
+ }
+
+.container-box {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.container-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 220px;
+}
+
+.item {
+  margin: 10px;
+}
+
+.contentbox {
+  background-color: black;
+  color: white;
+  height: 100vh;
+  display: block;
+  align-items: center;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.content {
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-img {
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.content-des {
+  padding: 20px;
+  text-align:justify;
+}
+
+.content-url {
+  padding: 20px;
+  text-align:center;
 }
